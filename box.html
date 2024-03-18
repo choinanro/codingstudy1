@@ -4,26 +4,25 @@
         <meta charset="utf-8">
         <title></title>
         <style>
-            /*
-            주석은 이렇게 표시하고
-            화면 전체를 쓰는 태그들을 block level element 라고 하고,
-            element 는 태그를 이야기 함
-            */
+
             h1, a{
                 border: 5px solid blue;
+                padding: 20px;
+                margin: 20;
+                display: block;
+                width: 200px;
             }
             /*
-            자신의 부피, 콘텐트 크기만큼 쓰는 태그를 inline element 라고 함
-            그리고 원래 block 이건 inline 이건 display 를 추가해서 따로 지정할 수도 있음
-            block 인 것에서는 display: inline;
-            inline 인 것에서는 display: block;
-            그리고 display: none; 을 하면 태그들 사라짐
+            h1이라는 태그는 애초에 화면 전체를 쓰는 display: block; 이 되어진 상태
+            근데 특징을 바꾸고 싶다면 width 값을 줘서 element (태그) 크기 변경 가능
+            패딩 마진 헷갈리면 구글 이미지 css box model 검색하면 잘 나옴
+            웹페이지 우클릭-검사 하면 태그 선택 후 styles 보고 잘 이해해보자
+            다른 사람이 만든 웹페이지 개발자도구 참고해서 저 사람이 뭘 썼는지 볼 수 있음!
             */
         </style>
     </head>
     <body>
         <h1>박스 모델</h1>
-        <a>박스 모델에 대해 배우고 있습니다.
-        <a href="https://www.w3schools.com/css/css_boxmodel.asp">박스모델</a>은 도대체 무엇인가.
+        <h1>박스 모델</h1>
     </body>
  </html>
