@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #grid{
+                border: 5px solid pink;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                /*
+                150px 1fr; 앞은 150픽셀 만큼 1fr 비율만큼
+                2fr 1fr; 라고 쓰면 앞은 2비율 뒤엔 1비율
+                */
+            }
+            div{
+                border: 5px solid gray;
+            }
+                /*
+                디자인만을 위한 태그를 써야 할 때
+                디비전이라는 무색무취의 태그를 사용!
+                div 디아이브이는 block level 화면 전체를 쓰니 줄바꿈이 됨
+                span 인라인 element 도 있음 필요에 따라 div 나 span 사용
+                */
+                /*
+                최신기술 사용 시 caniuse.com
+                grid 검색해보면 어디 호환 가능한지 체크해볼 필요있음.
+                */
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+             <div>NAVIGATION</div>
+             <div>ARTICLE</div>
+         </div>
+            </body>
+</html>
