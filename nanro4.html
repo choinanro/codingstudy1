@@ -4,9 +4,62 @@
     <title>nanro's web coding1 - studying hard</title>
     <meta charset="utf-8">
     <style>
+        body {
+            margin: 0px;
+        }
         a {
             color:black;
             text-decoration: none;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0px;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 30px;
+            text-align: left;
+            border-top: 1px solid gray;
+            margin: 0px;
+            padding: 20px;
+        }
+        ol {
+            width: 180px;
+            margin: 0px;
+            padding: 20px;
+            padding-top: 0px;
+            padding-left: 40px;
+        }
+        #grid {
+            display: grid;
+            grid-template-columns: 0fr 1fr;
+            grid-template-rows: 150px
+        }
+        #grid-ol {
+            padding: 40px;
+        }
+        p {
+            padding-left: 20px;
+            margin-top: 0px;
+        }
+        #text {
+            margin: 0px;
+            padding: 20px;
+            padding-left: 20px;
+            padding-right: 100px;
+        }
+        @media(max-width: 700px) {
+            #grid {
+            display: block;
+            }
+            ol {
+            border-right: none; solid gray;
+            }
+            h1, h2 {
+            border-bottom: none;
+            }
         }
     </style>
 </head>
@@ -14,26 +67,27 @@
     <h1><a href="index.html">WEB coding by nanro</a></h1>
     <ul>
         <li><a href="nanro1.html">INTRO (연습 목차)</a></li>
-        <li><a href="nanro2.html">HTML을 시도하는 nanro</a></li>
-        <li><a href="nanro3.html">재밌는 nanro</a></li>
-        <li><a href="nanro4.html">열공 중인 nanro</a> (이건 그냥 리스트 ul 의 li 이올시다)</li>
+        <li><a href="nanro2.html">HTML을 시도하는 nanro</a> <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification"> (HTML) </a></li>
+        <li><a href="nanro3.html">Where Am I</a></li>
+        <li><a href="nanro4.html">꽤 꾸준하게 코호딩</a></li>
     </ul>
-    <ol>
-        <li>INTRO</li>
-        <li><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">HTML</a>을 시도하는 nanro</li>
-        <li>재밌는 nanro</li>
-        <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/index.html" title="html5's tags">HTML 태그</a>를 열공 중인 nanro (이건 자동 번호 매기기 ol의 li 이올시다)</li>
-    </ol>
-    <h2>열공 중인 nanro</h2>
+    <h2>꽤 꾸준하게 코호딩</h2>
     <p>하하하하하하하하하하하하</p>
     <p>몇 가지 태그들과 속성들을 배웠ㄷ다<br>
         !doctype html 선포<br>
         html 안에 head body 로 나뉘고 h1~h4 그리고 a href ul ol<br>
         단락을 의미하는 p와 그냥 줄바꿈 br..etc</p>
     <p>그리고 웹서버 연동해서 같은 네트워크망에 있다면 실시간 교신도 가능...</p>
-    <p>체크박스 <input type="checkbox"><input type="checkbox"></p>
+    <p>체크박스 <input type="checkbox"><input type="checkbox">이건 그냥 만들어본 거고</p>
     <p><input type="email"><input type="date"></p>
     <p>input type 하핫</p>
+    <p>
+        2024년 2월의 끝자락<br>
+        이었던 위의 들뜸이 귀엽게 느껴지는 지금은 어느덧<br>
+        2024년 3월의 끝자락<br>
+        지금은 CSS를 하고 있고, 아직 다행히 나가떨어지지 않았다<br>
+        깃헙에 commit 을 push 하고 잔디를 심는 것도 재밌다.. 잔디라니 너무 귀엽잖아.
+    </p>
     <p>
         <div id="disqus_thread"></div>
 <script>
